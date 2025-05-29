@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Slip Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Navigation Bar */
+        .navbar {
+            background-color: #f8f8f8;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: bold;
+        }
+        .navbar .user-info {
+            margin-right: 20px;
+        }
+        .navbar .user-info a {
+            color: #333;
+        }
+        /* Sidebar */
+        .sidebar {
+            width: 200px;
+            position: fixed;
+            top: 50px;
+            left: 0;
+            height: 100%;
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+        .sidebar a {
+            display: block;
+            margin: 15px 0;
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: bold;
+        }
+        /* Main Content */
+        .main-content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+        .pay-slip-box {
+            border: 1px solid #000;
+            padding: 20px;
+            width: 300px;
+            margin: 20px;
+        }
+        .pay-slip-box h3 {
+            margin: 0 0 20px 0;
+            font-size: 18px;
+        }
+        .pay-slip-box a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div>
+            <a href="#">HOME</a>
+            <a href="#">PROFILE</a>
+            <a href="#">CALENDER</a>
+            <a href="#">REQUEST FORM</a>
+        </div>
+        <div class="user-info">
+            Hi User, <a href="#">Log Out</a>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#">PERSONAL</a>
+        <a href="#">COMPETENCY</a>
+        <a href="#">CERTIFICATION</a>
+        <a href="#">PAY SLIP</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="pay-slip-box">
+            <h3>2025 Pay Slip</h3>
+            <a href="#">January 2025</a>
+            <a href="#">February 2025</a>
+            <a href="#">March 2025</a>
+            <a href="#">April 2025</a>
+            <a href="#">May 2025</a>
+            <a href="#">June 2025</a>
+            <a href="#">July 2025</a>
+            <a href="#">August 2025</a>
+            <a href="#">September 2025</a>
+            <a href="#">October 2025</a>
+            <a href="#">November 2025</a>
+            <a href="#">December 2025</a>
+        </div>
+    </div>
+</body>
+</html>
